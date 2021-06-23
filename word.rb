@@ -10,7 +10,7 @@ class Word
     expected_meaning == meaning
   end
 
-  def word?(expected_word)
-    expected_word == word
+  def name?(expected_name)
+    expected_name == name
   end
 end
